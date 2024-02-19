@@ -8,7 +8,7 @@ const fontOutfit = Outfit({ subsets: ["latin"], weight: ['400', '600', '700'] })
 export default function Home() {
   return (
     <div className="max-w-3xl mx-auto">
-      <div className=" bg-white lg:py-6 lg:px-4 lg:rounded-3xl">
+      <div className=" bg-white lg:pt-6 lg:px-4 lg:rounded-3xl">
         <div className="lg:mt-2">
           <div className="">
             <Image src="/images/image-omelette.jpeg" className="lg:rounded-xl lg:mx-auto" width={750} height={700} alt="omelette" />
@@ -24,7 +24,7 @@ export default function Home() {
 
           <div className=" ml-3 mr-3 mt-8 py-3 bg-[#fff7fc] rounded-lg ">
             <h2 className={`${fontOutfit.className} ml-4 font-semibold text-[#7b284f]`}>Preparation time</h2>
-            <ul className=" ml-11 mt-2 list-disc">
+            <ul className=" ml-11 mt-2 list-disc marker:text-[#7b284f]">
               <li className={`${fontOutfit.className} mt-2 text-sm text-gray-500`}><span className="font-semibold text-gray-800">Total:</span> Approximately 10 minutes </li>
               <li className={`${fontOutfit.className}mt-2 text-sm text-gray-500`}><span className="font-semibold text-gray-800">Preparation:</span> 5 minutes</li>
               <li className={`${fontOutfit.className}mt-2 text-sm text-gray-500`}><span className="font-semibold text-gray-800">Cooking:</span> 5 minutes</li>
@@ -33,7 +33,7 @@ export default function Home() {
 
           <div className="ml-3 mr-3 mt-8 py-3 ">
             <h3 className={`${fontYoungSerif.className} text-2xl text-[#854832]`}>Ingredients</h3>
-            <ul className="ml-6 mt-4 list-disc">
+            <ul className="ml-6 mt-4 list-disc marker:text-[#854832]">
               <li className="mt-2 text-sm text-gray-500">2-3 large eggs </li>
               <li className="mt-2 text-sm text-gray-500"> Salt, to taste</li>
               <li className="mt-2 text-sm text-gray-500"> Pepper, to taste</li>
@@ -46,7 +46,7 @@ export default function Home() {
 
           <div className="ml-3 mr-3 mt-8 py-3 ">
             <h3 className={`${fontYoungSerif.className} text-2xl text-[#854832]`}>Instructions</h3>
-            <ol className="ml-6 mt-4 list-decimal">
+            <ol className="ml-6 mt-4 list-decimal marker:text-[#854832]  marker:font-bold">
               <li className="mt-2 text-sm text-gray-500"><span className="font-semibold text-gray-800">Beat the eggs:</span>
                 In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
                 You can add a tablespoon of water or milk for a fluffier texture.</li>
@@ -119,7 +119,8 @@ export default function Home() {
         </div>
       </div>
 
-      <p className="text-center text-gray-500 text-xs mt-2"> Design by &amp; code by
+      <p className="text-center text-gray-500 text-xs mb-[-8rem] mt-24"> Challenge by
+      <a href="https://www.linkedin.com/in/kaifi-azmi/" className="text-blue-400"> Frontend Mentor. </a> Code by
         <a href="https://www.linkedin.com/in/kaifi-azmi/" className="text-blue-400"> kaifi azmi</a></p>
     </div>
   );
