@@ -17,20 +17,18 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [ui-recipe-challenge](https://ui-recipe-challenge.netlify.app)
 
 ## Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
+
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Tailwind](https://tailwindcss.com/) - For styles
 
 
 ## What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+While the overall experience was positive, there were some challenges.It's worth mentioning that the initial learning curve for Tailwind CSS might be steep for developers accustomed to traditional CSS frameworks.
+Creating a webpage with Next.js, Tailwind CSS, and TypeScript was a rewarding experience. The seamless integration of these technologies, coupled with the performance benefits and a supportive community, make this stack an excellent choice for modern web development projects. Whether you are a seasoned developer or a newcomer, exploring this stack is a worthwhile investment in enhancing your web development skills.
+

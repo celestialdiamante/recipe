@@ -1,6 +1,5 @@
 
-import { Young_Serif } from "next/font/google";
-import { Outfit } from "next/font/google";
+import { Young_Serif, Outfit } from "next/font/google";
 import Image from "next/image";
 
 const fontYoungSerif = Young_Serif({ subsets: ["latin"], weight: '400' });
